@@ -4,6 +4,8 @@
 // 1. declaration   let x;
 // 2. assignment    x = 100;
 
+// 3. both declaration and assignment can be added together making it: `initialization`.
+
 /* example below
 
 let x;
@@ -44,9 +46,9 @@ console.log(x);
 // an important thing with strings is they can contain numbers
 // a string is a series of character but it cannot be used for math
 
-let fullName = "Bro Code";
-let age = 25;
-let isStudent = false;
+let fullName = "Bro Code";          // a string
+let age = 25;                       // a number
+let isStudent = false;              // a boolean
 
 document.getElementById("p1").textContent = `Your name is ${fullName}`;
 document.getElementById("p2").textContent = `You are ${age} years old`;
