@@ -31,7 +31,7 @@ document.getElementById("myP").textContent = `I like pizza!`;
     this 
     is
     a
-    comment
+    comment.
 */
 
 // ABOVE - (multi-line comment: everything between /* and */ is IGNORED,
